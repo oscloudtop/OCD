@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="aplayer">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/aplayer.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/maincolor"
+    android:orientation="vertical"
+
+    tools:context="cn.oddcloud.www.oddccloudtelevision.fragment.Index_SortFragment">
+
+    <com.gigamole.navigationtabbar.ntb.NavigationTabBar
+        android:id="@+id/ntb_sample_5"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        app:ntb_animation_duration="400"
+        app:ntb_preview_colors="@array/red_wine"
+        app:ntb_corners_radius="25dp"
+        app:ntb_scaled="false"
+        app:ntb_titled="true"
+        app:ntb_active_color="#8d88e4"
+        app:ntb_inactive_color="#dddfec"
+        app:ntb_bg_color="#8d88e4"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/index_sort_viewpager"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="#fff"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+
+</LinearLayout>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.oddcloud.www.oddccloudtelevision">
+
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".Aplayer.FilePickerActivity"
+            android:theme="@style/AppThemes">
+
+
+        </activity>
+        <activity
+            android:name=".Aplayer.PlayerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_player"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".Aplayer.Setting"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme" />
+
+        <!-- 主框架测试 -->
+        <activity android:name=".TES.MainActivity" />
+        <activity android:name=".TES.TopHorizontalNtbActivity" />
+        <activity android:name=".TES.VerticalNtbActivity" />
+
+        <!--主页-->
+        <activity android:name=".NavMainActivity">
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN" />-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+        <activity android:name=".TES.HorizontalCoordinatorNtbActivity" />
+        <activity android:name=".TES.SamplesNtbActivity" />
+        <activity android:name=".Floatingsearch.SearchActivity" />
+        <activity android:name=".connectlistview.TvShowActivity" />
+        <activity
+            android:name=".MVC.View.Sort_for_Vip.Show_for_vip_Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MVC.View.Sort_for_Vip.VIP_Play_Activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".MVC.View.Sort_for_Vip.Tv_list_Activity"></activity>
+
+
+
+        <activity android:name=".TES.Slide.FadeAnimation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+
+    </application>
+
+</manifest>

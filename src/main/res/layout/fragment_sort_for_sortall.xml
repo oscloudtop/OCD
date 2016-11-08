@@ -1,0 +1,278 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cn.oddcloud.www.oddccloudtelevision.fragment.index_SortFragment.Sort_for_sortall_Fragment">
+
+    <LinearLayout
+        android:id="@+id/for_no_slip_linearlayout"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="2dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:background="@drawable/yuanjiao_top"
+        android:elevation="4dp"
+        android:translationZ="3dp"
+        android:layout_marginBottom="4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新上线"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_first" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/for_slip_linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:layout_marginTop="4dp"
+        android:elevation="4dp"
+        android:translationZ="4dp"
+        android:visibility="gone"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+
+            android:layout_weight="1"
+             android:divider="@drawable/divider"
+            android:showDividers="end">
+
+            <TextView
+                android:id="@+id/item1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+
+                android:text="排序:"
+                android:textColor="#87000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/new_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="27dp"
+                android:text="最上线"
+                android:textColor="#87000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/new_remen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="14dp"
+                android:gravity="center"
+                android:text="最热门"
+                android:textColor="#87000000"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:divider="@drawable/divider"
+            android:showDividers="end">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/all_sort_type"
+                android:gravity="center"
+
+                android:text="全部"
+                android:textColor="#87000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:id="@+id/juqing_sort_type"
+                android:text="剧情"
+                android:textColor="#87000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/xiju_sort_type"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:text="喜剧"
+                android:textColor="#87000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/kongbu_sort_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:text="恐怖"
+                android:textColor="#87000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/kehuan_sort_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:text="科幻"
+                android:textColor="#87000000"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:divider="@drawable/divider"
+            android:showDividers="end">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/all_sort_country"
+                android:gravity="center"
+
+                android:text="全部"
+                android:textColor="#87000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:id="@+id/meiguo_sort_country"
+                android:text="美国"
+                android:textColor="#87000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/ribeng_sort_country"
+                android:gravity="center"
+                android:text="日本"
+                android:textColor="#87000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/dalu_sort_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:text="大陆"
+                android:textColor="#87000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/hanguo_sort_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:text="韩国"
+                android:textColor="#87000000"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:divider="@drawable/divider"
+            android:showDividers="end">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/all_sort_m"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+
+                android:text="全部"
+                android:textColor="#87000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:id="@+id/all_sort_movie"
+                android:text="电影"
+                android:textColor="#87000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/all_sort_tv"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:text="电视剧"
+                android:textColor="#87000000"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/sort_all_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

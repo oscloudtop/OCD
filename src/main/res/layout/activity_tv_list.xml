@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="cn.oddcloud.www.oddccloudtelevision.MVC.View.Sort_for_Vip.Tv_list_Activity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="35dp"
+        app:titleTextColor="#fff"
+        android:background="#9C27B0"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+
+            android:id="@+id/toolbar_tv_title"
+            android:text="视频列表"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/maincolor"
+        android:layout_height="300dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginRight="75dp"
+            android:id="@+id/tv_current_img"
+            android:src="@drawable/testimage2"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="青云志"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:id="@+id/tv_current_title"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:ellipsize="marquee"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:id="@+id/container_tvlist"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_weight="1"
+        android:layout_height="0dp"></LinearLayout>
+
+
+
+
+</LinearLayout>

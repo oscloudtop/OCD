@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blue">#303F9F</color>
+    <color name="accent_color">#9C27B0</color>
+    <color name="colorPrimary">#9C27B0</color>
+    <color name="colorPrimaryDark">@color/blue</color>
+    <color name="statusBarColor">#9C27B0</color>
+    <color name="navigationBarColor">#9C27B0</color>
+    <color name="drawerArrowColor">@android:color/white</color>
+    <color name="white">#ffffff</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pop_windwon_back_ground">#c8161616</color>
+    <color name="pop_windwon_select_enable_back_ground">#c8c6c6c6</color>
+    <color name="pop_windwon_select_disable_back_ground">#c8313131</color>
+
+    <!--主框架9C27B0  #E91E63 #D500F9 -->
+    <color name="maincolor">#9C27B0</color>
+    <color name="main_list_item">#F3E5F5</color>
+    <color name="nav_inactive_color">#E040FB</color>
+    <color name="nav_active_color">#fff</color>
+    <color name="grid_bg">#fafafa</color>
+
+    <!--直播二级联动-->
+    <color name="colorFirstItemBackground">#eaeaea</color>
+    <color name="colorSecondItemBackground">#ffffff</color>
+    <color name="colorThirdItemBackground">#ffffff</color>
+    <color name="colorItemTextBlack">#303030</color>
+    <color name="colorItemTextRed">#e95454</color>
+
+
+    <color name="mainbackgroundcolor">#F3E5F5</color>
+
+    <color name="mainlayoutcolor">#ffffff</color>
+
+    <color name="black">#87000000</color>
+
+
+<!--AA00FF-->
+    <color name="switch_color">#e91e63</color>
+</resources>
